@@ -1,0 +1,25 @@
+K 10
+svn:ignore
+V 388
+bin
+bin/*
+gen
+gen/*
+gen/edu
+gen/edu/*
+gen/edu/stanford
+gen/edu/stanford/*
+gen/edu/stanford/cs247
+gen/edu/stanford/cs247/*
+gen/edu/stanford/cs247/songstalker
+gen/edu/stanford/cs247/songstalker/*
+gen/org
+gen/org/*
+gen/org/urbanstew
+gen/org/urbanstew/*
+gen/org/urbanstew/SoundCloudBase
+gen/org/urbanstew/SoundCloudBase/*
+gen/org/urbanstew/soundclouddroid
+gen/org/urbanstew/soundclouddroid/*
+
+END

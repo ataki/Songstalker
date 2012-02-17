@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+   	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+<RelativeLayout
+	android:id="@+id/query"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    >
+    <Button
+		android:id="@+id/query_button"
+    	android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+		android:layout_alignParentRight="true"
+		android:text="Search"
+	/>
+	<EditText
+	    android:id="@+id/query_edit"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_toLeftOf="@id/query_button"
+	    android:textAppearance="?android:attr/textAppearanceLarge"
+	    android:gravity="center_vertical"
+	    android:singleLine="true"
+	    android:hint="@string/artist_search_query"
+	/>
+</RelativeLayout>
+<ListView
+	android:id="@+id/android:list"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_below="@+id/query"
+    />
+
+</RelativeLayout>

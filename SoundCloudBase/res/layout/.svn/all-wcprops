@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/26/trunk/SoundCloudBase/res/layout
+END
+view_tracks.xml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/26/trunk/SoundCloudBase/res/layout/view_tracks.xml
+END
+main.xml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/26/trunk/SoundCloudBase/res/layout/main.xml
+END
+progress.xml
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/26/trunk/SoundCloudBase/res/layout/progress.xml
+END
+tracks_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/26/trunk/SoundCloudBase/res/layout/tracks_item.xml
+END
+alert_playback_dialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/26/trunk/SoundCloudBase/res/layout/alert_playback_dialog.xml
+END
+obtain_access_token.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/26/trunk/SoundCloudBase/res/layout/obtain_access_token.xml
+END

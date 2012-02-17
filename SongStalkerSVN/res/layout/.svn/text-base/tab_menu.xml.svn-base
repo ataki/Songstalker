@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/tabhost"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="5dp">
+        <TabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+            
+        <LinearLayout
+          android:id="@+id/bottom_control_bar"
+          android:layout_width="fill_parent" 
+          android:background="@android:drawable/bottom_bar"
+          android:layout_height="wrap_content"
+          android:layout_alignParentBottom="true"
+          android:gravity="center_vertical">
+          <Button
+            android:layout_width="0dip"
+            android:layout_weight="1.0"
+            android:layout_height="wrap_content"
+            android:text="Previous Song" />
+          <Button
+            android:layout_width="0dip"
+            android:layout_weight="1.0"
+            android:layout_height="wrap_content"
+            android:text="Pause Song" />
+          <Button
+            android:layout_width="0dip"
+            android:layout_weight="1.0"
+            android:layout_height="wrap_content"
+            android:text="Next Song" />
+       </LinearLayout>
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:padding="5dp" 
+            android:layout_below="@android:id/tabs"
+            android:layout_above="@id/bottom_control_bar"
+            />
+    </RelativeLayout>
+
+</TabHost>

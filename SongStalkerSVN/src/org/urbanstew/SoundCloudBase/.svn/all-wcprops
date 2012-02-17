@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/52/trunk/SongStalkerSVN/src/org/urbanstew/SoundCloudBase
+END
+ViewTracksActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/22/trunk/SongStalkerSVN/src/org/urbanstew/SoundCloudBase/ViewTracksActivity.java
+END
+ObtainAccessToken.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/22/trunk/SongStalkerSVN/src/org/urbanstew/SoundCloudBase/ObtainAccessToken.java
+END
+SoundCloudAuthorizationClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/22/trunk/SongStalkerSVN/src/org/urbanstew/SoundCloudBase/SoundCloudAuthorizationClient.java
+END
+SoundCloudService.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/22/trunk/SongStalkerSVN/src/org/urbanstew/SoundCloudBase/SoundCloudService.java
+END
+SoundCloudMainActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/22/trunk/SongStalkerSVN/src/org/urbanstew/SoundCloudBase/SoundCloudMainActivity.java
+END
+DB.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/22/trunk/SongStalkerSVN/src/org/urbanstew/SoundCloudBase/DB.java
+END
+PlaybackDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/22/trunk/SongStalkerSVN/src/org/urbanstew/SoundCloudBase/PlaybackDialog.java
+END
+SoundCloudRequestClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/22/trunk/SongStalkerSVN/src/org/urbanstew/SoundCloudBase/SoundCloudRequestClient.java
+END
+SoundCloudBaseActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/22/trunk/SongStalkerSVN/src/org/urbanstew/SoundCloudBase/SoundCloudBaseActivity.java
+END
+Progressable.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/22/trunk/SongStalkerSVN/src/org/urbanstew/SoundCloudBase/Progressable.java
+END
+SoundCloudData.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/22/trunk/SongStalkerSVN/src/org/urbanstew/SoundCloudBase/SoundCloudData.java
+END
+SoundCloudApplicationBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/52/trunk/SongStalkerSVN/src/org/urbanstew/SoundCloudBase/SoundCloudApplicationBase.java
+END

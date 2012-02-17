@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/59/trunk/SoundCloudBase
+END
+default.properties
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/26/trunk/SoundCloudBase/default.properties
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/59/trunk/SoundCloudBase/.classpath
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/59/trunk/SoundCloudBase/.project
+END
+AndroidManifest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/26/trunk/SoundCloudBase/AndroidManifest.xml
+END
+.svnignore
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/59/trunk/SoundCloudBase/.svnignore
+END

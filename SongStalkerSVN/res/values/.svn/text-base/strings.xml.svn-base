@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+<!-- SoundCloud Droid specific strings -->
+	<string name="SCB_issues_url">http://code.google.com/p/soundclouddroid/issues/list</string>
+	<string name="SCB_new_issue_url">http://code.google.com/p/soundclouddroid/issues/entry</string>
+	<string name="SCB_join_mailing_list_url">http://groups.google.com/group/soundcloud-droid/subscribe</string>
+	<string name="SCB_manual_url">http://urbanstew.org/soundclouddroid/manual.html</string>
+
+	<string name="SCB_download_directory">/SoundCloudDroid</string>
+
+    <string name="app_name">SoundCloud Droid</string>
+    <string name="provider_name">org.urbanstew.provider.soundclouddroid</string>
+	<string name="license">Welcome to SoundCloud Droid!\n\nBy using this application, you agree to the following license:\n\nSoundCloud Droid\nCopyright (C) 2009,2010 urbanSTEW\n\nThis program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.\n\nThis program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.\n\nSee http://www.gnu.org/licenses/ for a full text of the license.\n\nSee http://urbanstew.org/soundclouddroid/ for links to source code and documentation.\n\n</string>
+	<string name="welcome_to_soundcloiddroid">Welcome to SongStalker! Find interesting music and stalk people through that music.</string>
+
+    <string name="enter_title">Enter Title</string>
+    <string name="choose_file">Choose File</string>
+    <string name="extra_attributes_prompt">Extra Attributes</string>
+	<string name="unauthorized_upload">Please Connect with SoundCloud before uploading.\n\nYou may retry this upload via "View Upload Status".</string>
+	<string name="no_uploads">There are no uploads to display.</string>
+	<string name="select_an_upload">Select an upload to retry or repeat it.</string>
+
+	<string name="warning">Warning</string>
+	<string name="warning_3gpp_upload">SoundCloud might not be able to process 3gpp audio files.\n\nYou can record WAV audio files using Rehearsal Assistant and upload those instead.</string>
+	<string name="never_show">never show this warning again</string>
+	
+	<string name="no_track_lists">There are no track lists to display. To configure a new track list, use the MENU. </string>
+
+	<string name="artist_search_query">Search Query</string>
+	
+</resources>

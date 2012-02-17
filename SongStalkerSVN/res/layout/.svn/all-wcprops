@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/56/trunk/SongStalkerSVN/res/layout
+END
+me.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/56/trunk/SongStalkerSVN/res/layout/me.xml
+END
+view_other_tracks.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/20/trunk/SongStalkerSVN/res/layout/view_other_tracks.xml
+END
+main.xml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/20/trunk/SongStalkerSVN/res/layout/main.xml
+END
+upload.xml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/20/trunk/SongStalkerSVN/res/layout/upload.xml
+END
+uploads_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/20/trunk/SongStalkerSVN/res/layout/uploads_item.xml
+END
+new_artist_tracks.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/20/trunk/SongStalkerSVN/res/layout/new_artist_tracks.xml
+END
+uploads.xml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/20/trunk/SongStalkerSVN/res/layout/uploads.xml
+END
+tab_menu.xml
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/32/trunk/SongStalkerSVN/res/layout/tab_menu.xml
+END
+custom_track_lists.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/20/trunk/SongStalkerSVN/res/layout/custom_track_lists.xml
+END
+track_list_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/20/trunk/SongStalkerSVN/res/layout/track_list_item.xml
+END

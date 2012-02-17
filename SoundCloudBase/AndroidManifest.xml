@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="org.urbanstew.SoundCloudBase"
+      android:versionCode="1"
+      android:versionName="1.0">
+<application>
+
+<provider android:name="org.urbanstew.SoundCloudBase.SoundCloudData" android:authorities="org.urbanstew.provider.soundclouddroid"></provider>
+
+<!-- SoundCloudBase -->
+	    <activity
+	    	android:name="org.urbanstew.SoundCloudBase.ObtainAccessToken"
+	    	android:configChanges="keyboardHidden|orientation"
+	    	android:label="Connect with SoundCloud">
+	    </activity>
+	    
+	    <activity
+	    	android:name="org.urbanstew.SoundCloudBase.ViewTracksActivity"
+	    	android:launchMode="singleTask"
+			android:configChanges="keyboardHidden|orientation"
+	    	android:allowTaskReparenting="true" android:label="My Tracks">
+	    </activity>
+
+	    <service android:name="org.urbanstew.SoundCloudBase.SoundCloudService">
+		</service>
+
+</application>
+
+    <uses-sdk android:minSdkVersion="3" />
+
+</manifest> 

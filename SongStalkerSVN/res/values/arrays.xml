@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="attributes">
+        <item>Sharing</item>
+        <item>Description</item>
+        <item>Genre</item>
+        <item>Track Type</item>
+    </string-array>  
+    <string-array name="sharing_options">
+        <item>public</item>
+        <item>private</item>
+    </string-array>
+    <string-array name="track_type_options">
+        <item></item>
+        <item>original</item>
+        <item>in progress</item>
+        <item>loop</item>
+        <item>reedit</item>
+        <item>djset</item>
+        <item>live</item>
+        <item>cover</item>
+        <item>mashup</item>
+        <item>podcast</item>
+        <item>sample</item>
+        <item>demo</item>
+        <item>remix</item>
+        <item>part</item>
+    </string-array>
+</resources>

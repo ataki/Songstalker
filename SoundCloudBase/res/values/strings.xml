@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="s5rmEGv9Rw7iulickCZl"> </string>
+<string name="consumer_key"> </string>
+<string name="sandbox_consumer_key"> </string>
+<string name="sandbox_consumer_secret"> </string>
+
+    <string name="app_name">SoundCloud</string>
+
+	<string name="welcome_to_soundcloudapp"> </string>
+	<string name="license"> </string>
+	<string name="provider_name"></string>
+
+	<string name="SCB_issues_url"/>
+	<string name="SCB_new_issue_url"/>
+	<string name="SCB_join_mailing_list_url"/>
+	<string name="SCB_manual_url"/>
+	
+	<string name="SCB_download_directory">/SoundCloud</string>
+	
+<!-- SoundCloudBase strings -->
+	<string name="unable_to_verify_connection">Unable to verify connection with SoundCloud.</string>
+	<string name="please_connect">Please connect with SoundCloud.</string>
+	<string name="verifying_connection">Verifying connection with SoundCloud...</string>
+	<string name="connected_as">Connected to SoundCloud as</string>
+
+</resources>

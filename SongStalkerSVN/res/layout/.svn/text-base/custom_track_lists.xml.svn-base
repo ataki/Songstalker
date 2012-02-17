@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+	>
+	<FrameLayout
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:layout_alignParentTop="true"
+		    android:layout_alignParentBottom="true"
+	>
+		<RelativeLayout
+			android:layout_width="fill_parent"
+    		android:layout_height="fill_parent">
+	
+			<ListView
+				android:id="@+id/android:list"
+	    		android:layout_width="fill_parent"
+	    		android:layout_height="fill_parent"
+	    		/>
+			<TextView android:id="@+id/use_menu"
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+			    android:gravity="center"
+				android:background="#7F000000"
+			    android:textAppearance="?android:attr/textAppearanceLarge"
+			    android:text="Use the MENU to Search for Artists"
+			    android:layout_alignParentBottom="true"
+				/>
+		</RelativeLayout>
+	</FrameLayout>
+</RelativeLayout>
+

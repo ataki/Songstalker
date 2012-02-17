@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+   	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<EditText
+    android:id="@+id/title_edit"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:gravity="center_vertical"
+    android:singleLine="true"
+    android:text="@string/enter_title"
+/>
+<LinearLayout
+	android:id="@+id/file_info"
+    android:orientation="vertical"
+    android:layout_alignParentBottom="true"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+<TextView
+	android:id="@+id/file_uri"
+	android:paddingLeft="7dip"
+	android:paddingRight="7dip"
+	android:singleLine="false"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+/>
+<Button
+	android:id="@+id/upload_button"
+	android:text="@string/choose_file"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+/>
+</LinearLayout>
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/title_edit"
+    android:layout_above="@id/file_info">
+<LinearLayout
+	android:scrollbars="vertical"
+	android:scrollbarAlwaysDrawVerticalTrack="true"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >
+<Spinner
+	android:id="@+id/extra_attributes"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:drawSelectorOnTop="true"
+    android:prompt="@string/extra_attributes_prompt"
+/>
+<ViewAnimator
+	android:id="@+id/animator"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+>
+	<Spinner
+		android:id="@+id/spinner_attribute"
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content"
+	    android:drawSelectorOnTop="true"
+	/>
+	<EditText
+	    android:id="@+id/text_attribute"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:textAppearance="?android:attr/textAppearanceLarge"
+	    android:gravity="center_vertical"
+	    android:singleLine="false"
+	/>
+</ViewAnimator>
+</LinearLayout></ScrollView>
+</RelativeLayout>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Change for specific app -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="org.urbanstew.soundclouddroid" android:versionName="1.2.1" android:versionCode="16">
+    <application android:icon="@drawable/icon" android:label="@string/app_name" android:name="SoundCloudApplication" android:debuggable="false">
+        	
+        <activity android:name=".SoundCloudDroid"
+                  android:label="@string/app_name"
+                  android:configChanges="keyboardHidden|orientation"
+                  >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+<!-- SoundCloud Droid specific -->
+
+	    <activity
+	    	android:name="UploadActivity"
+	    	android:configChanges="keyboardHidden|orientation"
+	    	android:label="Upload File To SoundCloud">
+	    	<intent-filter>
+	    		<action android:name="android.intent.action.SEND"></action>
+				<data android:mimeType="audio/*"></data>
+				<category android:name="android.intent.category.DEFAULT"/>
+			</intent-filter>
+			<intent-filter>
+				<action android:name="android.intent.action.VIEW"></action>
+				<category android:name="android.intent.category.DEFAULT"></category>
+				<data android:mimeType="vnd.android.cursor.item/org.urbanstew.soundclouddroid.uploads"></data>
+			</intent-filter>
+		</activity>
+		
+    	<activity
+	    	android:name="UploadsActivity"
+	    	android:launchMode="singleTop"
+			android:allowTaskReparenting="true" android:label="View Upload Status">
+	    </activity>
+	    
+	    <activity
+	    	android:name="ViewTracksActivity"
+	    	android:launchMode="singleTask"
+			android:configChanges="keyboardHidden|orientation"
+	    	android:allowTaskReparenting="true" android:label="My Tracks">
+	    </activity>
+
+	    <activity
+	    	android:name="ViewOtherTracksActivity"
+	    	android:launchMode="singleTask"
+			android:configChanges="keyboardHidden|orientation"
+	    	android:allowTaskReparenting="true" android:label="My Favorites">
+	    </activity>
+	    
+	    <activity
+	    	android:name="CustomTrackListsActivity"
+	    	android:launchMode="singleTask"
+			android:configChanges="keyboardHidden|orientation"
+	    	android:allowTaskReparenting="true" android:label="Track Lists">
+	    </activity>
+	    
+	    <activity
+	    	android:name="NewArtistTracksActivity"
+	    	android:launchMode="singleTask"
+			android:configChanges="keyboardHidden|orientation"
+	    	android:allowTaskReparenting="true" android:label="Search for Artists">
+	    </activity>
+	    
+<!-- SoundCloudBase -->
+		<provider android:name="org.urbanstew.soundclouddroid.SoundCloudData" android:authorities="org.urbanstew.provider.soundclouddroid"></provider>
+
+	    <activity
+	    	android:name="org.urbanstew.SoundCloudBase.ObtainAccessToken"
+	    	android:configChanges="keyboardHidden|orientation"
+	    	android:label="Connect with SoundCloud">
+	    </activity>
+	    
+	    <service android:name="org.urbanstew.SoundCloudBase.SoundCloudService">
+		</service>
+   
+	
+
+<activity android:name="TabMenuActivity"></activity>
+<activity android:name="StalkersActivity"></activity>
+<activity android:name="NearbyActivity"></activity>
+
+<activity android:name="MeActivity"></activity>
+</application>
+
+	<uses-sdk android:minSdkVersion="3"/>
+
+	<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+</manifest> 

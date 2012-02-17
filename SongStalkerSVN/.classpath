@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry kind="src" path="aidl"/>
+	<classpathentry exported="true" kind="lib" path="dependencies/apache-mime4j-0.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="dependencies/httpmime-4.0.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="dependencies/org.urbanstew.android.util-1.1.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="dependencies/org.urbanstew.soundcloudapi-1.0.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="dependencies/signpost-commonshttp4-1.2.1.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="dependencies/signpost-core-1.2.1.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="dependencies/org.restlet.ext.atom.jar"/>
+	<classpathentry exported="true" kind="lib" path="dependencies/org.restlet.ext.rdf.jar"/>
+	<classpathentry exported="true" kind="lib" path="dependencies/org.restlet.ext.xml.jar"/>
+	<classpathentry exported="true" kind="lib" path="dependencies/org.restlet.jar"/>
+	<classpathentry exported="true" kind="lib" path="dependencies/commons-httpclient-3.1.jar"/>
+	<classpathentry excluding="org/urbanstew/SoundCloudBase/;org/ubanstew/util" kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/SoundCloudBase"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

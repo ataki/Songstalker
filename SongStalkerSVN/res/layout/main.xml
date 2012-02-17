@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView
+	android:id="@+id/welcome"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+	android:text="@string/welcome_to_soundcloiddroid"
+	android:textAppearance="?android:attr/textAppearanceSmall"
+	android:padding="10dip"
+    android:gravity="center"
+/>
+<LinearLayout
+	android:id="@+id/buttons"
+	android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    >
+<ImageButton
+	android:id="@+id/authorize_button"
+	android:src="@drawable/scc_connect_small"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:gravity="center"
+	/>
+<Button
+	android:id="@+id/custom_queries_button"
+	android:text="Track Lists"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+	/>
+</LinearLayout>
+<TextView
+	android:id="@+id/authorization_status"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:layout_below="@id/welcome"    
+    android:layout_above="@id/buttons"
+	android:text=""
+    android:gravity="center"
+	android:background="@android:drawable/dialog_frame"
+/>
+</RelativeLayout>

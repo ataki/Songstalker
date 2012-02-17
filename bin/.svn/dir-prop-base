@@ -1,0 +1,9 @@
+K 10
+svn:ignore
+V 47
+*
+classes.dex
+resources.ap_
+SongStalkerSVN.apk
+
+END
